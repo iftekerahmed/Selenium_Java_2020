@@ -31,7 +31,7 @@ public class BaseClass {
 
 	@BeforeSuite
 	public void setupSuite() throws Exception {
-		Reporter.log("Setting Up reports and test started ", true);
+		Reporter.log("Setting Up reports and test started ", true);// this is new comment from ifteker
 
 		excel = new ExcelDataProvider();
 		config = new ConfigDataProvider();
